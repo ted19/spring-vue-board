@@ -1,0 +1,36 @@
+server:
+  port: 8081
+  servlet:
+    encoding:
+      charset: UTF-8
+      force-response: true
+
+spring:
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+      path: /h2-console
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    generate-ddl: true
+    defer-datasource-initialization: true
+    properties:
+      hibernate:
+        format_sql: true
+        # show_sql: true // hibernate에서 생성한 sql 문 system.out 출력 (잘 사용하지 않음)
+
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    sql-script-encoding: UTF-8
+
+logging.level:
+  org.hibernate.SQL: debug
