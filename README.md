@@ -1,5 +1,5 @@
 # vue-back (Gradle, tomcat, jpa)
-Gradle, Spring MVC, api
+Gradle, Spring MVC, Api
 
 ## 1. Technologies and tools used:
 * Java 17
