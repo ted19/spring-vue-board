@@ -1,5 +1,5 @@
 # vue-back (Gradle, tomcat, jpa)
-Maven, Spring MVC, thymeleaf, a simple MVC web app to hash a string with either MD5 or the SHA-256 algorithm.
+Gradle, Spring MVC, api
 
 ## 1. Technologies and tools used:
 * Java 17
