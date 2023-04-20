@@ -1,4 +1,4 @@
-# vue-back (Gradle, tomcat, jpa)
+# vue-back (Gradle, Tomcat, H2)
 Gradle, Spring MVC, Api
 
 ## 1. Technologies and tools used:
